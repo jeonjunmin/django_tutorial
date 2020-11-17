@@ -25,9 +25,21 @@
 
 {% extends "blog/base.html" %}
 {% block content %}
+{#    {% for posts in post %}#}
+{#        <h1>{{posts.title }}</h1>#}
+{#        <p>By {{posts.author }} on {{posts.date_posted }}</p>#}
+{#        <p>By {{posts.content }}</p>#}
+{#    {% endfor %}#}
     {% for posts in post %}
-        <h1>{{posts.title }}</h1>
-        <p>By {{posts.author }} on {{posts.date_posted }}</p>
-        <p>By {{posts.content }}</p>
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="#">{{ posts.author }}</a>
+              <small class="text-muted">{{ posts.date_posted }}</small>
+            </div>
+            <h2><a class="article-title" href="#">{{ posts.title }}</a></h2>
+            <p class="article-content">{{ posts.content }}</p>
+          </div>
+        </article>
     {% endfor %}
 {% endblock content %}

@@ -27,5 +27,5 @@ def home(request):
 # def about(request):
 #     return HttpResponse('<h1>Blog About</h1>')
 def about(request):
-    return render (request, 'blog/about.html' , {'title' : 'AboutTEST'} )
+    return render (request, 'blog/about.html' , {'title' : '!!!TEST'} )
 
