@@ -3,7 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="5bb1bb48-37f2-4539-a481-6a70d8099110" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restfulapi/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/restfulapi/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restfulapi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/restfulapi/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -27,10 +35,11 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/media" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JEON\PycharmProjects\restfulapi\media" />
       <recent name="C:\Users\JEON\PycharmProjects\restfulapi\blog" />
     </key>
   </component>
@@ -97,6 +106,26 @@
       <workItem from="1605619858612" duration="655000" />
       <workItem from="1605620749230" duration="605000" />
       <workItem from="1606137109165" duration="1041000" />
+      <workItem from="1606227268043" duration="1217000" />
+      <workItem from="1606310703903" duration="1171000" />
+      <workItem from="1606398083665" duration="1453000" />
+      <workItem from="1606740780613" duration="392000" />
+      <workItem from="1606832124002" duration="1050000" />
+      <workItem from="1606914713437" duration="1700000" />
+      <workItem from="1607001673261" duration="503000" />
+      <workItem from="1607438753251" duration="818000" />
+      <workItem from="1607599749089" duration="1214000" />
+      <workItem from="1608043688010" duration="352000" />
+      <workItem from="1608214784253" duration="365000" />
+      <workItem from="1608569635521" duration="532000" />
+      <workItem from="1608570187767" duration="583000" />
+      <workItem from="1609773025935" duration="1038000" />
+      <workItem from="1609861384064" duration="651000" />
+      <workItem from="1609916168679" duration="62000" />
+      <workItem from="1609916254077" duration="52000" />
+      <workItem from="1609916316404" duration="10000" />
+      <workItem from="1609923133720" duration="27000" />
+      <workItem from="1609935021520" duration="1336000" />
     </task>
     <servers />
   </component>
