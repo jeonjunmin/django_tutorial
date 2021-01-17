@@ -2,7 +2,7 @@ from django.shortcuts import render
 from .models import  Post
 from django.http import HttpResponse
 from .models import Post
-from django.views.generic import ListView
+from django.views.generic import ListView, DetailView
 
 posts = [
     {
@@ -33,6 +33,11 @@ class PostListView(ListView):
     template_name = 'blog/home.html'
     context_object_name = 'post'
     ordering = ['-date_posted']
+
+
+class PostDetailView(DetailView):
+    model = Post
+
 
 # def about(request):
 #     return HttpResponse('<h1>Blog About</h1>')
