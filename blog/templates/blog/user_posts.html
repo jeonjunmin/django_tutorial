@@ -1,35 +1,6 @@
-{#<!DOCTYPE html>#}
-{#<html lang="en">#}
-{#<head>#}
-{#    <meta charset="UTF-8">#}
-{#    {% if title %}#}
-{#        <title>Django HOME - {{ title }}</title>#}
-{#    {% else %}#}
-{#        <title>Django HOME</title>#}
-{#    {% endif %}#}
-{#</head>#}
-{#<body>#}
-{#    <h1>Blog home!!!!</h1>#}
-{#    {% for posts in post %}#}
-{#        <h1>{{posts.title }}</h1>#}
-{#        <p>By {{posts.author }} on {{posts.date_posted }}</p>#}
-{#        <p>By {{posts.content }}</p>#}
-{#    {% endfor %}#}
-{#</body>#}
-{#</html>#}
-
-
-
-
-
-
 {% extends "blog/base.html" %}
 {% block content %}
-{#    {% for posts in post %}#}
-{#        <h1>{{posts.title }}</h1>#}
-{#        <p>By {{posts.author }} on {{posts.date_posted }}</p>#}
-{#        <p>By {{posts.content }}</p>#}
-{#    {% endfor %}#}
+    <h1 class="mb-3">Posts by {{view.kwargs.username }} ({{ page_obj.paginator.count }})</h1>
     {% for posts in post %}
         <article class="media content-section">
           <img class="rounded-circle article-img" src="{{ posts.author.profile.image.url}}">
