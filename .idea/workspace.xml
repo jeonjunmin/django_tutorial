@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5bb1bb48-37f2-4539-a481-6a70d8099110" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restfulapi/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/restfulapi/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restfulapi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/restfulapi/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,10 +28,11 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/media" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/users/templates/users" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JEON\PycharmProjects\restfulapi\users\templates\users" />
       <recent name="C:\Users\JEON\PycharmProjects\restfulapi\media" />
       <recent name="C:\Users\JEON\PycharmProjects\restfulapi\blog" />
     </key>
@@ -140,6 +142,7 @@
       <workItem from="1614688938627" duration="1487000" />
       <workItem from="1614690474136" duration="802000" />
       <workItem from="1614777285861" duration="637000" />
+      <workItem from="1614865193908" duration="658000" />
     </task>
     <servers />
   </component>
